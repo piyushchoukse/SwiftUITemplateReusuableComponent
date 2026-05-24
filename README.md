@@ -1,4 +1,4 @@
-# SwiftUITemplateReusuableComponent
+# SwiftUITemplateReusableComponent
 
 A minimal Swift package that exposes a reusable SwiftUI card component.
 
@@ -11,7 +11,7 @@ A minimal Swift package that exposes a reusable SwiftUI card component.
 ## Usage
 
 ```swift
-import SwiftUITemplateReusuableComponent
+import SwiftUITemplateReusableComponent
 
 let content = TemplateCardContent(
     title: "Reusable SwiftUI card",

@@ -4,24 +4,24 @@
 import PackageDescription
 
 let package = Package(
-    name: "SwiftUITemplateReusuableComponent",
+    name: "SwiftUITemplateReusableComponent",
     platforms: [
         .iOS(.v16),
         .macOS(.v13),
     ],
     products: [
         .library(
-            name: "SwiftUITemplateReusuableComponent",
-            targets: ["SwiftUITemplateReusuableComponent"]
+            name: "SwiftUITemplateReusableComponent",
+            targets: ["SwiftUITemplateReusableComponent"]
         ),
     ],
     targets: [
         .target(
-            name: "SwiftUITemplateReusuableComponent"
+            name: "SwiftUITemplateReusableComponent"
         ),
         .testTarget(
-            name: "SwiftUITemplateReusuableComponentTests",
-            dependencies: ["SwiftUITemplateReusuableComponent"]
+            name: "SwiftUITemplateReusableComponentTests",
+            dependencies: ["SwiftUITemplateReusableComponent"]
         ),
     ],
     swiftLanguageModes: [.v6]

@@ -1,5 +1,5 @@
 import Testing
-@testable import SwiftUITemplateReusuableComponent
+@testable import SwiftUITemplateReusableComponent
 
 @Test func templateCardContentStoresValues() {
     let content = TemplateCardContent(
